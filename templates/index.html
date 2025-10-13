@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    </head> Weather But Worse </html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+     <style>
+      @font-face {
+        font-family: 'Monocraft';
+        src: url('{{ url_for("static", filename="fonts/Monocraft.ttf") }}') format('truetype');
+      }
+    </style>
+</head>
+<body>
+    <h1 class = "title"> Weather But Worse </h1>
+    <form method="post" class="weather-form">
+        <input type="text" name="city" placeholder="Enter city" class="input-city">
+        <button type="submit" class="submit-btn">Check Weather</button>
+    </form>
+    <pre class="weather-message">{{ weather_message|e }}</pre>
+</body>
+</html>

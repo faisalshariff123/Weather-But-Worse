@@ -1,0 +1,6 @@
+Flask
+requests
+markupsafe
+timezonefinder
+python-dotenv
+pytz

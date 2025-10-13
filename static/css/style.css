@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Monocraft';
+  src: url('../fonts/Monocraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body, h1, h2, h3, h4, h5, h6, input, button, pre, form, .title, .weather-form, .input-city, .submit-btn, .weather-message {
+  font-family: 'Monocraft', 'Fira Mono', 'Consolas', monospace;
+  
+}
+
+body {
+  background: url('../img/uhhh.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #e5e5e5;
+  min-height: 100vh;
+  font-family: 'Monocraft', 'Fira Mono', monospace;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.1em;
+  margin-bottom: 0.8em;
+  color: #744107;
+}
+
+.weather-form {
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.input-city {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #2c2f35;
+  font-size: 1em;
+}
+
+.submit-btn {
+  padding: 8px 20px;
+  margin-left: 8px;
+  border-radius: 5px;
+  background: #41b883;
+  color: #fff;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.weather-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #19191900;
+  color: #ffffff;
+  border-radius: 7px;
+  padding: 24px;
+}
