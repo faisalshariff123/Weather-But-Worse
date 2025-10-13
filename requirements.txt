@@ -4,3 +4,4 @@ markupsafe
 timezonefinder
 python-dotenv
 pytz
+gunicorn
