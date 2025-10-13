@@ -47,7 +47,7 @@ def get_snarky_weather_remark(prompt):
             return "[Invalid JSON from OpenRouter]"
     else:
         return f"OpenRouter API Error: {response.status_code}"
-
+@app.route('/', methods=["GET", "POST"])
 @app.route("/weather", methods=["GET", "POST"])
 def weather():
     if request.method == "POST":
